@@ -1,0 +1,238 @@
+/*header Styles*/
+.main {
+  display: flex;
+  width: 90%;
+  border: 1px solid #ddd;
+  padding: 1%;
+  margin-left: 4%;
+  margin-right: 4%;
+  box-shadow: 5px 5px 5px #ddd;
+  color: #113D6E;
+}
+
+/*sub-1*/
+.sub-1 {
+  width: 50%;
+}
+
+/* styles for image in sub-1 offspring class*/
+.sub-1 img {
+  width: 50%;
+}
+
+/*sub-2*/
+.sub-2 {
+  width: 50%;
+  text-align: right;
+}
+
+.sub-2 h1 {
+  font-style: italic;
+}
+
+/*styles for banner*/
+.banner {
+  width: 90%;
+  margin: 1% auto;
+  box-shadow: 5px 5px 5px #ddd;
+}
+
+/*styles for image in banner*/
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+/*styles for parent class=pics*/
+.pics {
+  width: 23%;
+  height: 100%;
+  margin: 1%;
+  border: 1px solid #000;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1%;
+  background-color: #000;
+  color: #fff;
+}
+
+.pics img {
+  width: 100%;
+  height: 90%;
+  border-radius: 10px;
+}
+
+/* adding hoover to image responce*/
+.pics:hover {
+  border: solid 1px #6b6b6b;
+  -moz-box-shadow: 1px 1px 5px #6b6b6b;
+  -webkit-box-shadow: 1px 1px 5px #6b6b6b;
+  box-shadow: 1px 1px 1px #6b6b6b;
+}
+
+/*styles for image*/
+.pics img:hover {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: :all 1s ease;
+}
+
+.pics img:hover {
+  transform: scale(0.9);
+}
+
+/* stylres for button in pics of rafel modela*/
+.button {
+  background-color: #CEEC34;
+  text-align: center;
+}
+
+/* styles for footer */
+footer {
+  width: 90%;
+  margin: 1% auto;
+  display: flex;
+  justify-content: center;
+  padding: 5PX;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/*media queries for responce design for mobile*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  /*header*/
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 1px solid #ddd;
+    padding: 1%;
+    margin: 1% auto;
+    box-shadow: 9px 9px 9px -9px #000;
+  }
+
+  /*sub-1*/
+  .sub-1 {
+    width: 100%;
+  }
+
+  .sub-1 img {
+    display: block;
+    margin: 1% auto;
+  }
+
+  /*sub-2*/
+  .sub-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  /*styles for banner*/
+  .banner {
+    width: 90%;
+    margin: 1% auto;
+    padding: 1%;
+    box-shadow: 5px 5px 5px #ddd;
+  }
+
+  /*styles for parent class=pics*/
+  .banner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pics {
+    width: 100%;
+    margin: 1%;
+    text-align: center;
+  }
+
+  .pics img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*styles for footer*/
+footer {
+  width: 90%;
+  margin: 1% auto;
+  display: flex;
+  justify-content: center;
+  padding: 5PX;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+/*@media query for ipad*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /*header Styles*/
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    border: 1px solid #ddd;
+    padding: 1%;
+    margin: 1% auto;
+    box-shadow: 9px 9px 9px -9px #000;
+  }
+
+  /*sub-1*/
+  .sub-1 {
+    width: 100%;
+  }
+
+  .sub-1 img {
+    display: block;
+    margin: 1% auto;
+  }
+
+  /*sub-2*/
+  .sub-2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner {
+    width: 90%;
+    margin: 1% auto;
+    padding: 1%;
+    box-shadow: 5px 5px 5px #ddd;
+  }
+
+  /*banner Styles*/
+  .banner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pics {
+    width: 45%;
+    margin: 1%;
+    text-align: center;
+  }
+
+  .pics img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/*styles for footer*/
+footer {
+  width: 90%;
+  margin: 1% auto;
+  display: flex;
+  justify-content: center;
+  padding: 5PX;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
