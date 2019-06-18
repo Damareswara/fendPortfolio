@@ -45,6 +45,7 @@
 
 /*styles for parent class=pics*/
 .pics {
+  /* flex-direction: row; */
   width: 23%;
   height: 100%;
   margin: 1%;
